@@ -1,53 +1,60 @@
-MES Production & OEE Monitoring System
-Overview
+# MES Production & OEE Monitoring System
 
-This project is a basic Manufacturing Execution System (MES) simulation developed using Python. It demonstrates production tracking and Overall Equipment Effectiveness (OEE) calculation using Object-Oriented Programming (OOP) concepts.
+## Project Overview
 
-Features
-Production count tracking
-Availability calculation
-Performance calculation
-Quality calculation
-Overall Equipment Effectiveness (OEE) calculation
-Python OOP implementation
-Technologies Used
-Python
-Object-Oriented Programming (OOP)
-OEE Formula
-Availability = Runtime / Total Time
+This project is a simple Manufacturing Execution System (MES) simulation developed in Python. The goal of the project is to understand how production data can be collected and used to calculate Overall Equipment Effectiveness (OEE), which is a key performance indicator in manufacturing industries.
 
-Performance = (Cycle Time × Total Count) / Runtime
+The project uses Object-Oriented Programming (OOP) concepts to model production data and OEE calculations.
 
-Quality = Good Count / Total Count
+## What This Project Does
 
-OEE = Availability × Performance × Quality
-Project Structure
-Production Class
-    ├── Machine ID
-    ├── Production Count
-    └── Total Production
+- Tracks production count for a machine
+- Calculates Availability
+- Calculates Performance
+- Calculates Quality
+- Calculates Overall Equipment Effectiveness (OEE)
+- Demonstrates the use of Python classes and objects in a manufacturing-related application
 
-OEE Class
-    ├── Availability
-    ├── Performance
-    ├── Quality
-    └── OEE Calculation
-Example Output
-Production: 100
-Availability: 0.5
-Performance: 10
-Quality: 0.9
-OEE: 4.5
-Learning Outcomes
-Understanding MES fundamentals
-Applying OOP concepts in manufacturing applications
-Implementing OEE calculations
-Developing basic manufacturing analytics solutions
-Future Enhancements
-Database integration (SQL)
-OPC UA machine connectivity
-Real-time production monitoring
-Dashboard visualization
-Production order management
+## OEE Calculation
 
+The OEE value is calculated using the following components:
+
+- Availability = Runtime / Total Time
+- Performance = (Cycle Time × Total Count) / Runtime
+- Quality = Good Count / Total Count
+- OEE = Availability × Performance × Quality
+
+## Technologies Used
+
+- Python
+- Object-Oriented Programming (OOP)
+
+## Why I Built This Project
+
+I created this project to improve my understanding of MES concepts, manufacturing KPIs, and Python programming. The project helped me understand how production information can be organized and analyzed to evaluate machine performance.
+
+## Future Improvements
+
+Some features that can be added in future versions include:
+
+- Database integration using SQL
+- OPC UA connectivity for machine data collection
+- Real-time production monitoring
+- Dashboard and reporting features
+- Production order management
+- Machine downtime tracking
+
+## Learning Outcomes
+
+Through this project, I gained experience in:
+
+- Python class design
+- OOP concepts
+- OEE calculations
+- Basic MES concepts
+- Manufacturing data analysis
+
+## Author
+
+Pradeep Karajagi
 This project was created to demonstrate MES and Digital Transformation (DX) concepts used in smart manufacturing environments.
